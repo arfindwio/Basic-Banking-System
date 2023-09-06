@@ -4,9 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Bank Account</title>
   </head>
   <body>
-    <script></script>
+    <div style="margin: 0 auto; text-align: center">
+      <h1>Bank Account</h1>
+      <h5>Saldo Anda : <span id="saldo">0</span></h5>
+      <div style="display: flex; justify-content: center">
+        <button style="margin-right: 10px" onclick="deposit()">Deposit</button>
+        <button onclick="withdraw()">Withdraw</button>
+      </div>
+    </div>
+
+    <script src="./banking_system.js"></script>
   </body>
 </html>
